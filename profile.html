@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(medicine-doctor-stethoscope-touching-medical-icons-network-medicine-doctor-stethoscope-touching-icons-medical-network-111489030.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .profile-container {
+            text-align: center;
+            margin: 50px auto;
+            max-width: 400px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border: 3px solid #666;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 20px;
+        }
+
+        .profile-photo img {
+            width: 80%;
+            height: 80%;
+            /* object-fit: cover; */
+        }
+
+        .profile-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .profile-functions {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .back-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="profile-container">
+        <div class="profile-photo">
+            <!-- <input type="file"> -->
+            <img src="prophilpic.png" alt="profile photo">
+        </div>
+        <div class="profile-name">vaibhav raj</div>
+        <div class="profile-info"></div>
+
+        <div class="profile-functions">
+            <button onclick="sendMessage()">Call Request</button>
+            <!-- <button onclick="addFriend()">Add </button> -->
+        </div>
+
+        <button class="back-button" onclick="goBack()">Back to Home</button>
+    </div>
+
+    <script>
+        function sendMessage() {
+            alert("Sending call request");
+        }
+
+        function goBack() {
+            window.history.back();
+        }
+        
+    </script>
+
+</body>
+
+</html>

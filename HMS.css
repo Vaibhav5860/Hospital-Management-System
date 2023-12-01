@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    background-image: url(desktop-wallpaper.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 115vh;
+    background-color: rgb(131, 12, 243);
+}
+
+#navbar {
+    background-color: rgba(59, 236, 248, 0.82);
+    height: 70px;
+}
+
+#ul {
+    text-align: center;
+    float: right;
+    position: absolute;
+    right: 05px;
+    top: 16.5px;
+}
+
+#ambulance,
+#contact,
+#login,
+#logout,
+#gallery {
+    padding: 6px;
+    margin: 0 10px 0 0;
+    border-width: 3px;
+    background-color: rgb(255, 41, 237);
+    border-style: inset;
+    border-radius: 13px;
+}
+
+#ambulance:hover,
+#contact:hover,
+#gallery:hover,
+#login:hover,
+#logout:hover {
+    padding: 8.7px;
+    border-width: 0;
+}
+
+#ambulance:active,
+#contact:active,
+#gallery:active,
+#login:active,
+#logout :active {
+    background-color: rgb(165, 1, 129);
+}
+
+#logout {
+    padding: 6px 16px;
+}
+
+#logout:hover {
+    padding: 8.7px 18.7px;
+    border-width: 0px;
+}
+
+#logout:active {
+    background-color: rgb(165, 1, 129);
+}
+
+#login {
+    padding: 6px;
+}
+
+#login:hover {
+    padding: 8.7px;
+    border-width: 0;
+}
+
+#login:active {
+    background-color: rgb(165, 1, 129);
+}
+
+li {
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+#logo {
+    height: 55px;
+    margin: 7px 20px;
+}
+
+.login {
+    margin: -2px;
+    height: 180px;
+    width: 178px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position-x: center;
+    background-position-y: 15px;
+    /* background-color: blue !important; */
+}
+
+.login:hover {
+    background-size: 160px !important;
+    transition: all ease 0.4s;
+    background-color: #fd59be74;
+    border-radius: 35px;
+
+}
+
+.login:active {
+    background-color: rgba(0, 115, 255, 0.534);
+}
+
+.name {
+    text-transform: capitalize;
+    position: relative;
+    top: 160px;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 17px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(0, 42, 255);
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+#doctor {
+    background-image: url(921059.png);
+    background-size: 140px;
+
+}
+
+#doctorbutton {
+    padding: 2px 35px;
+}
+
+#paitent {
+    background-image: url(1833859.png);
+    background-size: 150px;
+}
+
+#paitentbutton {
+    padding: 2px 5px;
+}
+
+#search {
+    background-image: url(search.png);
+    background-size: 150px;
+}
+
+#searchbutton {
+    padding: 2px 35px;
+}
+
+#appiontment {
+    background-image: url(appiontment.png);
+    background-size: 140px;
+}
+
+#appiontmentbutton {
+    padding: 2px 6px;
+}
+
+#service {
+    background-image: url(ambulance.png);
+    background-size: 150px;
+}
+
+#servicebutton {
+    padding: 2px 35px;
+}
+
+.name:active {
+    background-color: rgb(3, 169, 169);
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    color: white;
+    text-align: center;
+}
+
+#footercontent {
+    padding-top: 10px;
+}
+
+main {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+    /* background-color: blue; */
+}
+
+/* #imagegallery {
+    /* overflow-x: hidden; 
+} */
+
+#galleryheader {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+}
+
+.g1 {
+    display: flex;
+    overflow-x: auto;
+}
+
+.g2 {
+    display: flex;
+    overflow-x: auto;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    main {
+      display: flex;
+      flex-wrap:wrap;
+      overflow: auto;
+    }
+    
+  }
+@media only screen and (min-width: 1600px) {
+    main {
+      display: flex;
+      justify-content:space-between ;
+      margin: 0 150px;
+      
+    }
+    
+  }
